@@ -1,0 +1,245 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	  	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Sue Skrobak : Life Coach</title>
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+		
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<link rel="stylesheet" href="styles.main/css">
+
+	</head>
+	<style>
+
+	body {
+		background: white;
+/*		background: linear-gradient(#FF99FF, #FFCCFF);		
+*/		padding-top: 70px;
+		padding-bottom: 50px;
+	}
+
+	.row {
+		padding: 5%;
+	}
+
+	#contact-header {
+		position: relative;
+		width: 50%;
+		text-align: center;
+		top: 25%;
+		margin: 0 auto;
+	}
+
+	#contact-img {
+		width: 15%;
+		display: block;
+		margin: auto;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.contact-text {
+		font-size: 1.8em;
+		margin: auto;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		width: 50%;
+	}
+
+/*Form is from https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form*/
+	form {
+	    /* Just to center the form on the page */
+	    margin: 0 auto;
+	    width: 350px;
+	    /* To see the outline of the form */
+	    padding: 1em;
+	    border: 1px solid #CCC;
+	    border-radius: 1em;
+	}
+
+	form div + div {
+	    margin-top: 1em;
+	}
+
+	label {
+	    /* To make sure that all labels have the same size and are properly aligned */
+	    display: inline-block;
+	    width: 90px;
+	}
+
+	input, textarea {
+	    /* To make sure that all text fields have the same font settings
+	       By default, textareas have a monospace font */
+	    font: 1em sans-serif;
+
+	    /* To give the same size to all text field */
+	    width: 300px;
+	    -moz-box-sizing: border-box;
+	    box-sizing: border-box;
+
+	    /* To harmonize the look & feel of text field border */
+	    border: 1px solid #999;
+	}
+
+	input:focus, textarea:focus {
+	    /* To give a little highlight on active elements */
+	    border-color: #000;
+	}	
+
+	textarea {
+	    /* To properly align multiline text fields with their labels */
+	    vertical-align: top;
+
+	    /* To give enough room to type some text */
+	    height: 5em;
+
+	    /* To allow users to resize any textarea vertically
+	       It does not work on all browsers */
+	    resize: vertical;
+	}
+
+	.button {
+	    /* To position the buttons to the same position of the text fields */
+	    padding-left: -10px; /* same size as the label elements */
+	}
+
+	button {
+	    /* This extra margin represent roughly the same space as the space
+	       between the labels and their text fields */
+	    margin-left: .5em;
+	}
+
+	.bottom-footer {
+		padding-top: 2%;
+		margin-top: 2%;
+		border-top: 1px solid #b2b2b2;
+	}
+
+	.social-icons {
+		list-style: none;
+	}
+
+	.social-icons li {
+		display: inline;
+		margin-right: 5px;
+	}	
+
+	@media (max-width: 62.5em) {
+		body {
+		font-size: 1.1em;
+	    margin-bottom: 0;
+	    width: 100%;
+	}
+	}
+
+	@media screen and (max-width: 62.5em) {
+    #contact-img {
+    	width: 50%;
+    }
+
+	@media screen and (max-width: 62.5em) {
+    	.social-icons li {
+    	margin-right: 1px;
+    }
+
+	</style>
+	<body>
+	<div class="container">
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+			    <div class="navbar-header">
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span> 
+			      	</button>
+			      <a class="navbar-brand" href="index.html">Sue Skrobak</a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+					    <li><a href="index.html">Home</a></li>
+					    <li><a href="fitness.html">Personal Training</a></li> 
+					    <li><a href="life.html">Life Coaching</a></li>
+					    <li><a href="faq.html">FAQ</a></li>
+					    <li><a href="about.html">About Me</a></li>
+					  	<li class="active"><a href="contact.html">Contact</a></li> 
+					</ul>
+				</div>
+		  	</div>
+		</nav>
+
+		<header id="contact-header">
+			<h1>Contact Sue</h1>
+		</header>
+
+		<img id="contact-img" src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/10014612_10154201194375116_7215667013769126466_n.jpg?oh=64e9918b9dfb526522f5c6f77e43ef4f&oe=589D0F5C">
+
+		<div>
+			<article class="contact-text">
+				<p>Ready to take your transform your life? <br><br>Call me or send me an e-mail for your free consultation. Use the contact form below to tell me the kind of coaching you would need or reach me at 555-555-5555.</p>
+			</article>
+		</div>
+
+		<form action="/my-handling-form-page" method="post">
+		    <div>
+		        <label for="name">Name:</label>
+		        <input type="text" id="name" name="user_name" />
+		    </div>
+		    <div>
+		        <label for="mail">E-mail:</label>
+		        <input type="email" id="mail" name="user_mail" />
+		    </div>
+		    <div>
+		        <label for="msg">Message:</label>
+		        <textarea id="msg" name="user_message"></textarea>		        
+		    </div>
+		    <div class="button">
+		        <button type="submit">Send</button>
+		    </div>
+		</form>
+
+
+	    <footer class="site-footer">
+		    <div class="row">
+				<div class="bottom-footer">
+					<div class="col-xs-4">
+						<p>©2017 Sue Skrobak<br></p>
+						<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
+					</div>
+					<div class="col-xs-4">
+						<ul class="social-icons">
+							<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-4">
+						<span style="float: right"><p>Site Designed by David C</p></span>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	</body>
+</html>
