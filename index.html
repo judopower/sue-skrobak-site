@@ -16,16 +16,20 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 		<link rel="stylesheet" href="styles.main/css">
+		<script>
+			$(document).ready(function(){
+
+			});
+		</script>
 	</head>
 	<style>
 	body {
 		background: white;
-/*		background: linear-gradient(#FF99FF, #FFCCFF);*/		
-		font-size: 16px;
 		padding-top: 70px;
 		padding-bottom: 50px;
-		box-sizing: border-box;
 	}
+
+
 
 	.bottom-footer {
 		padding-top: 2%;
@@ -41,114 +45,6 @@
 		display: inline;
 		margin-right: 10px;
 	}
-	html, body {
-	  height: 100%;
-	}
-
-	html {
-	  background: #eee;
-	}
-
-	body {
-/*		display: flex;
-*/		justify-content: center;
-	  	align-items: center;
-	}
-
-	.box {
-	  width: 100%;
-	  height: 50%;
-	  border-radius: 5px;
-	  box-shadow: 0 2px 30px rgba(black, .2);
-	  position: relative;
-	  top: 42%;
-	  margin: auto;
-	  transform: translate3d(0, 0, 0);\
-	  box-sizing: border-box;
-	}
-
-	.wave {
-	  opacity: .4;
-	  position: absolute;
-	  top: 3%;
-	  left: 50%;
-	  background: #0af;
-	  width: 500px;
-	  height: 500px;
-	  margin-left: -250px;
-	  margin-top: -250px;
-	  transform-origin: 50% 48%;
-	  border-radius: 43%;
-	  animation: drift 3000ms infinite linear;
-	}
-
-	.wave.-two {
-	  animation: drift 5000ms infinite linear;
-	  opacity: .1;
-	  background: yellow;
-	}
-
-	.wave.-three {
-	  animation: drift 2500ms infinite linear;
-	}
-
-/*	.box:after {
-	  content: '';
-	  display: block;
-	  left: 0;
-	  top: 0;
-	  width: 100%;
-	  height: 100%;
-	  background: linear-gradient(to bottom, rgba(#e8a, 1), rgba(#def, 0) 80%, rgba(white, .5));
-	  z-index: 11;
-	  transform: translate3d(0, 0, 0);
-	}*/
-
-	.title {
-	  position: absolute;
-	  left: 0;
-	  top: -10px;
-	  width: 100%;
-	  z-index: 1;
-	  line-height: 50px;
-	  text-align: center;
-	  transform: translate3d(0, 0, 0);
-	  color: white;
-	  text-transform: uppercase;
-	  font-family: 'Playfair Display', serif;
-	  letter-spacing: .4em;
-	  font-size: 24px;
-	  text-shadow: 0 1px 0 rgba(black, .1);
-	  text-indent: .3em;
-	}
-
-	.header-title {
-	  position: absolute;
-	  left: 0;
-	  top: -180px;
-	  width: 100%;
-	  z-index: 1;
-	  line-height: 40px;
-	  text-align: center;
-	  transform: translate3d(0, 0, 0);
-	  color: black;
-	  text-transform: uppercase;
-	  font-family: 'Playfair Display', serif;
-	  letter-spacing: .4em;
-	  font-size: 24px;
-	  text-shadow: 0 1px 0 rgba(black, .1);
-	  text-indent: .3em;
-	}
-
-	.header-title span {
-		font-size: 14px;
-	}
-
-	@keyframes drift {
-	  from { transform: rotate(0deg); }
-	  from { transform: rotate(360deg); }
-	}
-
 	@media (max-width: 62.5em) {
 		body {
 		font-size: 1.3em;
@@ -166,62 +62,58 @@
 	<div class="container">
 
 		<nav class="navbar navbar-default navbar-fixed-top">
-		  	<div class="container-fluid">
-			    <div class="navbar-header">
-				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span> 
-			      	</button>
-			      <a class="navbar-brand" href="index.html">Sue Skrobak</a>
-				    </div>
-				    <div class="collapse navbar-collapse" id="myNavbar">
-					    <ul class="nav navbar-nav">
-					    </ul>
-					    <ul class="nav navbar-nav navbar-right">
-					      <li class="active"><a href="index.html">Home</a></li>
-					      <li><a href="fitness.html">Personal Training</a></li> 
-					      <li><a href="life.html">Life Coaching</a></li>
-					      <li><a href="faq.html">FAQ</a></li>
-					      <li><a href="about.html">About Me</a></li>
-					      <li><a href="contact.html">Contact</a></li> 
-					    </ul>
-					</div>
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span> 
+		      	</button>
+		      <a class="navbar-brand" href="index.html">Sue Skrobak</a>
+			    </div>
+			    <div class="collapse navbar-collapse" id="myNavbar">
+				    <ul class="nav navbar-nav">
+				    </ul>
+				    <ul class="nav navbar-nav navbar-right">
+				      <li class="active"><a href="index.html">Home</a></li>
+				      <li><a href="fitness.html">Personal Training</a></li>
+				      <li><a href="life.html">Life Coaching</a></li> 
+				      <li><a href="faq.html">FAQ</a></li>
+				      <li><a href="about.html">About Me</a></li>
+				      <li><a href="contact.html">Contact</a></li> 
+				    </ul>
 				</div>
 		  	</div>
 		</nav>
 
+		<div>
+			
 
-<!-- 		<div class='box'>
-		  <div class='wave -one'></div>
-		  <div class='wave -two'></div>
-		  <div class='wave -three'></div>
-		  <div class='header-title'>Sue Skrobak<br><span><a href="fitness.html">Personal Trainer</a><br><a href="life.html">Life Coach</a></span></div>
-		  <div class='title'>Change <br>Your <br> Life</div>
 		</div>
- -->
 
-<!-- 			<footer class="site-footer">
-			    <div class="row">
-					<div class="bottom-footer">
-						<div class="col-xs-4">
-							<p>©2017 Sue Skrobak<br></p>
-							<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
-						</div>
-						<div class="col-xs-4">
-							<ul class="social-icons">
-								<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-xs-4">
-							<span style="float: right"><p>Site Designed by David C</p></span>
-						</div>
+
+
+		<footer class="site-footer">
+			<div class="row">
+				<div class="bottom-footer">
+					<div class="col-xs-4">
+						<p>©2017 Sue Skrobak<br></p>
+						<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
+					</div>
+					<div class="col-xs-4">
+						<ul class="social-icons">
+							<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-4">
+						<span style="float: right"><p>Site Designed by David C</p></span>
 					</div>
 				</div>
-			</footer> -->
+			</div>
+		</footer> 
 
 	</div>
 
