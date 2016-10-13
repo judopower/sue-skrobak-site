@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="styles.main/css">
 	</head>
 	<style>
+
 	body {
 		background: white;
 		padding-top: 70px;
@@ -33,7 +34,6 @@
 	}
 
 	#lifting-sue {
-		box-sizing: border-box;
 		width: 100%;
 	}
 
@@ -51,25 +51,30 @@
 		border-top: 1px solid #b2b2b2;
 	}
 
+	.sue-address {
+		text-align: center;
+	}
+
 	.social-icons {
 		list-style: none;
+		text-align: center;
+		position: relative;
+		right: 15px;
 	}
 
 	.social-icons li {
 		display: inline;
-		margin-right: 10px;
+		margin-right: 5px;
+	}	
+
+	.site-maker {
+		text-align: center;
 	}
 
-	@media (max-width: 62.5em) {
-		body {
-		font-size: 1.3em;
-	    margin-bottom: 0;
-	    width: 100%;
-	}
-
-	@media screen and (max-width: 62.5em) {
-    .social-icons li {
-    	margin-right: 1px;
+	@media screen and (min-width: 750px) {
+    	.social-icons li {
+		display: inline;
+		margin-right: 5px;
     }
 
 	</style>
@@ -100,6 +105,7 @@
 				</div>
 		  	</div>
 		</nav>
+
 		<span style="text-align: center"><h1>Three Ways to Get in Shape</h1></span>
 		<div class="row">
 			<div class="col-md-6 col-md-push-6">
@@ -136,33 +142,34 @@
 				<article>
 					<h3>Yoga</h3>
 					<p>Stretch yoself before you wreck yoself</p>
-					<p>I will guide you through many yoga poses so you become flexible so that you can suck your own dick/ lick your own pussy.</p>
+					<p>I will guide you through many yoga poses.</p>
 				</article>
 				<a href="contact.html" class="btn btn-success" role="button">I'm Ready for a Session!</a>
 			</div>
 		</div>
 
-		    <footer class="site-footer">
-			    <div class="row">
-					<div class="bottom-footer">
-						<div class="col-xs-4">
-							<p>©2017 Sue Skrobak<br></p>
+	    <footer class="site-footer">
+		    <div class="row">
+				<div class="bottom-footer">
+					<div class="col-xs-12 col-md-4">
+						<section class="sue-address">
+							<p>©2017 Sue Skrobak</p>
 							<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
-						</div>
-						<div class="col-xs-4">
-							<ul class="social-icons">
-								<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-xs-4">
-							<span style="float: right"><p>Site Designed by David C</p></span>
-						</div>
+						</section>
 					</div>
+					<div class="col-xs-12 col-md-4">
+						<ul class="social-icons">
+							<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<section class="site-maker"><p>Site Designed by David C</p></section>
 				</div>
-			</footer>			
+			</div>
+		</footer>		
 
 
 	</div>

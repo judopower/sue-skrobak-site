@@ -28,10 +28,7 @@
 
 
 	#faq-img {
-		position: relative;
-		padding: 20px;
-		margin: 0 auto;
-		width: 50%;
+
 	}
 
 	#fitness-faq {
@@ -54,30 +51,38 @@
 		border-top: 1px solid #b2b2b2;
 	}
 
+	.sue-address {
+		text-align: center;
+	}
+
 	.social-icons {
 		list-style: none;
+		text-align: center;
+		position: relative;
+		right: 15px;
 	}
 
 	.social-icons li {
 		display: inline;
-		margin-right: 10px;
+		margin-right: 5px;
+	}	
+
+	.site-maker {
+		text-align: center;
 	}
 
-	@media (max-width: 62.5em) {
-		body {
-		font-size: 1.3em;
-	    margin-bottom: 0;
-	    width: 100%;
-	}
-
-	@media screen and (max-width: 62.5em) {
+	@media screen and (min-width: 750px) {
     #faq-img {
-    	width: 100%;
-    }
+		position: relative;
+		padding: 20px;
+		margin: 0 auto;
+		width: 50%;
+	    }
 
-    @media screen and (max-width: 62.5em) {
-    .social-icons li {
-    	margin-right: 1px;
+	@media screen and (min-width: 750px) {
+    	.social-icons li {
+		display: inline;
+		margin-right: 5px;
     }
 
 	</style>
@@ -143,7 +148,7 @@
 			    	</section>
 		    	</div>
 		    </div>
-		    <h2>FAQ about Personal Training</h2>
+		    <h2><u>FAQ about Personal Training</u></h2>
 		    <div class="row">
 		    	<div class="col-md-6">
 		    		<h3 id="personalwhy">Is personal training right for me?</h3>
@@ -174,7 +179,7 @@
 		    		<p>Cash, paypal, the blood of innocents.</p>
 		    	</div>
 		    </div>
-		    <h2>FAQ about Life Coaching</h2>
+		    <h2><u>FAQ about Life Coaching</u></h2>
 		    <div class="row">
 		    	<div class="col-md-6">
 			    	<h3 id="lifewhy">Is life coaching right for me?</h3>
@@ -186,26 +191,28 @@
 		    	</div>
 		    </div>
 		    
-		    <footer class="site-footer">
-			    <div class="row">
-					<div class="bottom-footer">
-						<div class="col-xs-4">
-							<p>©2017 Sue Skrobak<br></p>
+	    <footer class="site-footer">
+		    <div class="row">
+				<div class="bottom-footer">
+					<div class="col-xs-12 col-md-4">
+						<section class="sue-address">
+							<p>©2017 Sue Skrobak</p>
 							<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
-						</div>
-						<div class="col-xs-4">
-							<ul class="social-icons">
-								<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
-								<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
-								<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-xs-4">
-							<span style="float: right"><p>Site Designed by David C</p></span>
+						</section>
 					</div>
+					<div class="col-xs-12 col-md-4">
+						<ul class="social-icons">
+							<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+							<li><a href="#"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-xs-12 col-md-4">
+						<section class="site-maker"><p>Site Designed by David C</p></section>
 				</div>
-			</footer>
+			</div>
+		</footer>
 
 		</div>
 

@@ -29,7 +29,14 @@
 		padding-bottom: 50px;
 	}
 
+	.sue-motto {
+		letter-spacing: .2em;
+		font-size: 4em;
+	}
 
+	.service-header {
+		text-align: center;
+	}
 
 	.bottom-footer {
 		padding-top: 2%;
@@ -37,29 +44,35 @@
 		border-top: 1px solid #b2b2b2;
 	}
 
+	.sue-address {
+		text-align: center;
+	}
+
 	.social-icons {
 		list-style: none;
+		text-align: center;
+		position: relative;
+		right: 15px;
 	}
 
 	.social-icons li {
 		display: inline;
-		margin-right: 10px;
-	}
-	@media (max-width: 62.5em) {
-		body {
-		font-size: 1.3em;
-	    margin-bottom: 0;
-	    width: 100%;
+		margin-right: 5px;
+	}	
+
+	.site-maker {
+		text-align: center;
 	}
 
-	@media screen and (max-width: 62.5em) {
-    .social-icons li {
-    	margin-right: 1px;
+	@media screen and (min-width: 750px) {
+    	.social-icons li {
+		display: inline;
+		margin-right: 5px;
     }
 
 	</style>
 	<body>
-	<div class="container">
+	<div class="container-fluid">
 
 		<nav class="navbar navbar-default navbar-fixed-top">
 		  <div class="container-fluid">
@@ -86,21 +99,34 @@
 		  	</div>
 		</nav>
 
-		<div>
-			
-
+		<div class="row">
+			<div class="col-md-4 sue-motto">
+				<section class="sue-motto">
+					<p>CHANGE<br>YOUR<br>LIFE</p>
+				</section>
+			</div>
+			<div class="col-md-4">
+				<h3 class="service-header"><a href="fitness.html">Personal Training</a></h3>
+				<a href="fitness.html"><img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/13907011_10154627128720116_7715655333922944173_n.jpg?oh=1c337db8831dfee10c0708873c07c3b9&oe=58AA9A96" class="img-responsive"></a>
+			</div>
+			<div class="col-md-4">
+				<h3 class="service-header"><a href="life.html">Life Coaching</a></h3>
+				<a href="life.html"><img src="https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/12196284_10153289659561491_7804698262830928409_n.jpg?oh=07eae1e0783003458db0620c53a8e224&oe=58A7945D" class="img-responsive"></a>
+			</div>
 		</div>
 
 
 
-		<footer class="site-footer">
-			<div class="row">
+	    <footer class="site-footer">
+		    <div class="row">
 				<div class="bottom-footer">
-					<div class="col-xs-4">
-						<p>©2017 Sue Skrobak<br></p>
-						<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
+					<div class="col-xs-12 col-md-4">
+						<section class="sue-address">
+							<p>©2017 Sue Skrobak</p>
+							<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
+						</section>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-xs-12 col-md-4">
 						<ul class="social-icons">
 							<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
@@ -108,12 +134,11 @@
 							<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
-					<div class="col-xs-4">
-						<span style="float: right"><p>Site Designed by David C</p></span>
-					</div>
+					<div class="col-xs-12 col-md-4">
+						<section class="site-maker"><p>Site Designed by David C</p></section>
 				</div>
 			</div>
-		</footer> 
+		</footer>
 
 	</div>
 

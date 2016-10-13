@@ -26,13 +26,11 @@
 	}
 
 	.row {
-		padding: 5%;
+		padding: 2%;
 	}	
 
 	#sue-life {
-		width: 50%;
-		margin-left: auto;
-		margin-right: auto;
+
 	}
 
 	article p {
@@ -45,30 +43,37 @@
 		border-top: 1px solid #b2b2b2;
 	}
 
+	.sue-address {
+		text-align: center;
+	}
+
 	.social-icons {
 		list-style: none;
+		text-align: center;
+		position: relative;
+		right: 15px;
 	}
 
 	.social-icons li {
 		display: inline;
-		margin-right: 10px;
+		margin-right: 5px;
 	}	
 
-	@media (max-width: 62.5em) {
-		body {
-		font-size: 1.3em;
-	    margin-bottom: 0;
-	    width: 100%;
+	.site-maker {
+		text-align: center;
 	}
 
-	@media screen and (max-width: 62.5em) {
+	@media screen and (min-width: 750px) {
     #sue-life {
-    	width: 100%;
-    }
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
-    @media screen and (max-width: 62.5em) {
-    .social-icons li {
-    	margin-right: 1px;
+	@media screen and (min-width: 750px) {
+    	.social-icons li {
+		display: inline;
+		margin-right: 5px;
     }
 
 	</style>
@@ -108,8 +113,8 @@
 			</div>
 			<div class="col-md-12">
 				<article>
-					<h3>LIFE LIFE LIFE</h3>
-					<p>YEAH YEAH YEAH</p><p>OSS OSS OSS</p>
+					<h3>Transform Yourself | Be the Best You | Yeah</h3>
+					<p>Life Coaching is very cool.</p><p>I will make you into a cool person.</p>
 				</article>
 			</div>
 		</div>
@@ -118,11 +123,13 @@
 	    <footer class="site-footer">
 		    <div class="row">
 				<div class="bottom-footer">
-					<div class="col-xs-4">
-						<p>©2017 Sue Skrobak<br></p>
-						<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
+					<div class="col-xs-12 col-md-4">
+						<section class="sue-address">
+							<p>©2017 Sue Skrobak</p>
+							<address>NEW YORK NEW YORK<br>NEW YORK<br>SWITZERLAND</address>
+						</section>
 					</div>
-					<div class="col-xs-4">
+					<div class="col-xs-12 col-md-4">
 						<ul class="social-icons">
 							<li><a href="https://www.facebook.com/sue.skrobak?fref=ts"><i class="fa fa-facebook-square fa-2x"></i></a></li>
 							<li><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
@@ -130,12 +137,11 @@
 							<li><a href="#"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
-					<div class="col-xs-4">
-						<span style="float: right"><p>Site Designed by David C</p></span>
-					</div>
+					<div class="col-xs-12 col-md-4">
+						<section class="site-maker"><p>Site Designed by David C</p></section>
 				</div>
 			</div>
-		</footer>		
+		</footer>	
 
 	</div>
 
